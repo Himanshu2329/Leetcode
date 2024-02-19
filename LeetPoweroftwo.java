@@ -1,6 +1,6 @@
 public class LeetPoweroftwo {
     public static void main(String[] args) {
-        int n=3;
+        int n=64;
         boolean res=getpowerofTwo(n);
         System.out.println(res);
     }
