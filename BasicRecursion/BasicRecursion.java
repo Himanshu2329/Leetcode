@@ -2,15 +2,27 @@ package BasicRecursion;
 
 public class BasicRecursion {
     public static void main(String[] args) {
-        int n=5;
-        int res=getElements(n);
-        System.out.println(res);
+        // int n=1;
+        int y=50;
+        // getElements(n,y);
+        getElementsY(y);
+        // System.out.println(res);
     }
-    static int getElements(int n){
-        if(n<1){
-            return n;
+    private static void getElementsY(int y) {
+        // TODO Auto-generated method stub
+        if(y<1){
+            return;
         }
-        System.out.println(n-1);
-        return n;
+        getElementsY(y-1);
+        System.out.println(y);
+        // throw new UnsupportedOperationException("Unimplemented method 'getElementsY'");
+    }
+    static void getElements(int n, int y){
+        if(n>y){
+            return;
+        }
+        System.out.println(n);
+      getElements(n+1,y);
+        
     }
 }
