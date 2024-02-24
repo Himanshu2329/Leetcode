@@ -13,8 +13,8 @@ public class BasicRecursion {
         if(y<1){
             return;
         }
-        getElementsY(y-1);
         System.out.println(y);
+        getElementsY(y-1);
         // throw new UnsupportedOperationException("Unimplemented method 'getElementsY'");
     }
     static void getElements(int n, int y){
