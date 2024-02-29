@@ -1,6 +1,6 @@
 public class Armstrong {
     public static void main(String[] args) {
-        int n = 163124;
+        int n = 1634;
         boolean res=getArm(n);
         System.out.println(res);
 
