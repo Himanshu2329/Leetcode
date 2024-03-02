@@ -12,7 +12,7 @@ public class nthFibonaci {
         if(num <2){
             return num;
         }
-          return  getFib(num-2)+getFib(num-1);
+          return  getFib(num-1)+getFib(num-2);
         // throw new UnsupportedOperationException("Unimplemented method 'getFib'");
     }
     
