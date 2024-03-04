@@ -7,7 +7,7 @@ public class CountDigit {
         int n = 12345; 
         int cnt=0; 
         while (n>0) {
-            int temp=n%10;
+            int temp=n%10; 
             cnt++; 
             n/=10;
         }
