@@ -10,7 +10,7 @@ public class BasicRecursion {
     }
     private static void getElementsY(int y) {
         // TODO Auto-generated method stub
-        if(y<1){
+        if(y<1){ 
             return;
         }
         System.out.println(y);
