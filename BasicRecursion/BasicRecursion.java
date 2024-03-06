@@ -1,4 +1,4 @@
-package BasicRecursion;
+               package BasicRecursion;
 
 public class BasicRecursion {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class BasicRecursion {
         int y=50;
         // getElements(n,y); 
         getElementsY(y);
-        // System.out.println(res); 
+        // System.out.println(res);                             
     }
     private static void getElementsY(int y) {
         // TODO Auto-generated method stub
