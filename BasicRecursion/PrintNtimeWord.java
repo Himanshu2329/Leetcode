@@ -3,7 +3,7 @@ package BasicRecursion;
 import java.util.*;
 
 public class PrintNtimeWord {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         int n=3;
         // List<Integer> List =
          GetElement(n);
