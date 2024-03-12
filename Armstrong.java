@@ -5,7 +5,7 @@ public class Armstrong {
         System.out.println(res);
 
     }
-
+ 
     private static boolean getArm(int n) {
         // TODO Auto-generated method stub
         int digit=0;
