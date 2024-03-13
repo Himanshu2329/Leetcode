@@ -6,7 +6,7 @@ public class Armstrong {
 
     }
  
-    private static boolean getArm(int n) {   
+    private static boolean getArm(int n) {    
         // TODO Auto-generated method stub 
         int digit=0;
         int result=0;
