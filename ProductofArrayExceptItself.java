@@ -6,7 +6,7 @@ class Solution {
         int prefixProduct = 1;
         for (int i = 0; i < length; i++) {
             products[i] = prefixProduct;
-            prefixProduct *= nums[i];
+            prefixProduct *= nums[i]; 
         }
 
         int suffixProduct = 1; 
