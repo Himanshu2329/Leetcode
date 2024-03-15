@@ -9,7 +9,7 @@ class Solution {
             prefixProduct *= nums[i]; 
         }
 
-        int suffixProduct = 1;  
+        int suffixProduct = 1;   
         for (int i = length - 1; i >= 0; i--) {
             products[i] *= suffixProduct;
             suffixProduct *= nums[i];
