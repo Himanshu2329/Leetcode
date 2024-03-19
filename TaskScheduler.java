@@ -6,7 +6,7 @@ class Solution {
             int[] f = new int[26];
             for (char c : tasks) {
                 f[c - 'A']++;
-            } 
+            }  
             int max = 0;
             int count = 0;
             for (int i : f) {
